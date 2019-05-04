@@ -372,6 +372,14 @@ module.exports = function(webpackEnv) {
                         }
                       }
                     }
+                  ],
+                  [
+                    "import",
+                    {
+                      libraryName: "antd",
+                      libraryDirectory: "es",
+                      style: true
+                    }
                   ]
                 ],
 
