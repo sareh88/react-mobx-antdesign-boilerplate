@@ -364,6 +364,13 @@ module.exports = function(webpackEnv) {
 
                 plugins: [
                   [
+                    "@babel/plugin-proposal-decorators",
+                    {
+                      legacy: true
+                    }
+                  ],
+                  ["@babel/plugin-proposal-class-properties", { loose: true }],
+                  [
                     require.resolve("babel-plugin-named-asset-import"),
                     {
                       loaderMap: {
@@ -377,7 +384,7 @@ module.exports = function(webpackEnv) {
                     "import",
                     {
                       libraryName: "antd",
-                      libraryDirectory: "es",
+                      libraryDirectory: isEnvTest ? null : "es",
                       style: true
                     }
                   ]
