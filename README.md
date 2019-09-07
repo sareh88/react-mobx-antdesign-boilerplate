@@ -1,4 +1,4 @@
-<\*a href="https://snyk.io/test/github/sareh88/https://github.com/sareh88">
+[![Known Vulnerabilities](https://snyk.io/test/github/{sareh88}/{https://github.com/sareh88}/badge.svg?targetFile={path-to-target-file})](https://snyk.io/test/github/{sareh88}/{https://github.com/sareh88})
 
 # React Mobx Antd React router boilerplate
 
