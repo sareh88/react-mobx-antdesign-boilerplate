@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Icon, Avatar } from "antd";
-import ReactLogo from "../../../Assets/images/react.png";
-import MobxSvg from "../../../Assets/images/mobx.svg";
-import antdLogo from "../../../Assets/images/antd.png";
+import ReactLogo from "../../../assets/images/react.png";
+import MobxSvg from "../../../assets/images/mobx.svg";
+import antdLogo from "../../../assets/images/antd.png";
 
 import "../stylesheets/App.scss";
 
