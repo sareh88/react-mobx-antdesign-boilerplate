@@ -1,4 +1,4 @@
-# React Mobx Antd React router boilerplate
+# React Mobx Antd React router boilerplate ?style=flat-square
 
 ### this application is used CRA and Mobx and Antd and react router with this changes:
 
