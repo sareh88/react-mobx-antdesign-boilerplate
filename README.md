@@ -1,4 +1,4 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/sareh88/react-mobx-antdesign-boilerplate/badge.svg)](https://snyk.io/test/github/sareh88/react-mobx-antdesign-boilerplate)
+[![Known Vulnerabilities](https://snyk.io//test/github/sareh88/react-mobx-antdesign-boilerplate/badge.svg?targetFile=package.json)](https://snyk.io//test/github/sareh88/react-mobx-antdesign-boilerplate?targetFile=package.json)
 
 # React Mobx Antd React router boilerplate
 
