@@ -54,7 +54,7 @@
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "semver": "6.0.0",
-    "snyk": "^1.226.0",
+    "snyk": "^1.230.5",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.3",
     "url-loader": "1.1.2",
@@ -68,7 +68,7 @@
     "build": "node scripts/build.js",
     "test": "snyk test && node scripts/test.js",
     "snyk-protect": "snyk protect",
-    "prepare": "yarn run snyk-protect"
+    "prepare": "npm run snyk-protect && yarn run snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
